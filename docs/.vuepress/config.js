@@ -24,7 +24,7 @@ module.exports = {
     host: "0.0.0.0",// 开发环境的 主机名
     port: 8080,      // 开发端口
     // temp:"",       // 指定客户端文件的临时目录 Default: /path/to/@vuepress/core/.temp
-    dest: "vuepress/dist",        //指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析 默认值: .vuepress/dist
+    dest: ".vuepress/dist",        //指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析 默认值: .vuepress/dist
     extraWatchFiles: [], //指定额外的需要被监听的文件。
     // 导航栏的配置
     themeConfig: {
